@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+
+
+    <div class="box">
+
+        <div class="theme"></div>
+
+        <div class="text-container">
+
+            <h2>What Can JavaScript Do?</h2>
+
+            <p>JavaScript can change HTML attribute values.</p>
+
+            <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+        </div>
+
+        <img class="foco foco-apagado" id="myImage" src="img/bombilla-apagada.png" style="width:100px">
+
+        <div class="button-container">
+
+            <button onclick="document.getElementById('myImage').src='img/bombilla-prendida.png'">Prender luz</button>
+
+            <button class="turn-off" onclick="document.getElementById('myImage').src='img/bombilla-apagada.png'">Apagar luz</button>
+
+        </div>    
+    </div>
+
+</body>
+</html>
